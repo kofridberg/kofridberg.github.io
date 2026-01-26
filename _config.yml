@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Kyle Fridberg - Personal Website"
 title_separator          : "-"
 name                     : &name "Kyle Fridberg"
@@ -26,10 +26,10 @@ author:
   avatar           : "kyle_profile.jpg"
   name             : "Kyle Fridberg"
   pronouns         : # example: "she/her"  
-  bio              : "Applied Math PhD Student at Cornell University"
+  bio              : "Applied Math Ph.D. Student at Cornell University"
   location         : "Ithaca, NY"
   uri              : # URL
-  email            : # "kof4@cornell.edu" 
+  email            : "kof4@cornell.edu" 
 
   # Academic websites
   academia         : # URL
