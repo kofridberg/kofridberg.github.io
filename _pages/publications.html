@@ -5,32 +5,42 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Preprints</h2>
+<ul>
+  <li>
+    <strong>Kyle Fridberg</strong>.
+    <a href="https://arxiv.org/abs/2512.11740" target="_blank" rel="noopener">
+      Tiling with Boundaries: Dense digital images have large connected components.
+    </a>
+    arXiv preprint, 2025.
+  </li>
+</ul>
 
-{% include base_path %}
+<h2>Journal Articles</h2>
+<ul>
+  <li>
+    Mark J. Ablowitz, Joel B. Been, <strong>Kyle Fridberg</strong>.
+    <a href="https://doi.org/10.1098/rspa.2024.0812" target="_blank" rel="noopener">
+      Fractional integrable Toda lattice and hierarchy.
+    </a>
+    <em>Proceedings of the Royal Society A</em>, 481(2313), 2025.
+  </li>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <li>
+    <strong>Kyle Fridberg</strong>.
+    <a href="https://doi.org/10.1216/rmj.2025.55.699" target="_blank" rel="noopener">
+      A regular n-gon spiral.
+    </a>
+    <em>Rocky Mountain Journal of Mathematics</em>, 55(3), 2025.
+  </li>
 
+  <li>
+    Simon van Vliet, Christoph Hauert, <strong>Kyle Fridberg</strong>, Martin Ackermann, Alma Dal Co.
+    <a href="https://doi.org/10.1371/journal.pcbi.1009877" target="_blank" rel="noopener">
+      Global dynamics of microbial communities emerge from local interaction rules.
+    </a>
+    <em>PLoS Computational Biology</em>, 18(3), 2022.
+  </li>
+</ul>
 
 
